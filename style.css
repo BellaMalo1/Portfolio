@@ -2,5 +2,22 @@
     display: none;
 }
 body{
-    background: pink;
+    background: white;
+    
+
+}
+
+
+.nav-bar{
+    display: inline-block;
+
+}
+#header-image {
+    margin-left: 0px 0px 0px 30px;
+    width: 900px;
+    height: 400px;
+    
+
+    
+    
 }

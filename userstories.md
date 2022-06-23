@@ -24,4 +24,4 @@ Psuedocode:
     - each tag should have an event listener set up so when they are clicked 
     the home screen is hidden and each page is displayed 
 - about me should be at the center of the main page layout, take time writting a thoughtfull note to the viewer.
-- 
+- add media queries and account for smaller screen size 480px 720px about 4 media queries normal size web browser 
