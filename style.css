@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .hide{
@@ -78,10 +79,6 @@ nav:hover{
     list-style: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:white;
-    
-
-
-
     
 }
  .nav-item li{
@@ -178,4 +175,30 @@ nav:hover{
     border-radius: 50px;
     cursor: pointer;
 }
+#social-links a:visited, a:active, a:lin{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    color: black;
+
+
+}
+#inkedin{
+    font-size: x-large;
+    padding-right: 20px; 
+
+}
+#github{
+    
+}
+
+footer{
+    padding: 5%;
+    background: #ecb982;
+}
+
 
