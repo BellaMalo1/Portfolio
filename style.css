@@ -12,10 +12,19 @@ body{
 #Welcome-page-container{
     color: black;
     text-align: center;
-    padding: 25%;
+    padding: 20%;
 
     
   }
+ #cactus{
+   height: 15vh;
+   margin-right: 1000px;
+   margin-left: 373px;
+   margin-top: 50px;
+   
+    
+   
+}
 button{
     padding: 10px 25px;
     background-color: white;
@@ -27,11 +36,16 @@ button{
 button:hover{
     background-color: #ecb982;
 }
+#Home-page-container{
+    
+}
 
 #header-image {
+    justify-content: right;
     margin-left: 0px 0px 0px 30px;
-    width: 99vw;
-    height: 80vh;   
+    width: 98.5vw;
+    height: 60vh;   
+    
 
 }
 nav{
@@ -77,5 +91,22 @@ nav:hover{
  }
  .nav-item li a:hover{
     color: white;
+ }
+ .sections{
+    display: flex;
+ }
+
+ #Aboutme{
+    padding: 10% ;
+    border: box-size
+ }
+ #profile-picture{
+    display: inline-block;
+    width: 20vw;
+    height: 30vh;  
+    padding: auto; 
+    margin-left: 200px;
+    
+
  }
 
