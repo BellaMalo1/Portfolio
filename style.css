@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .hide{
     display: none;
@@ -5,12 +9,12 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: boarder-box;
-    background-color: #ecb984;
+    background-color: #8fa277;
     
      
 }
 #Welcome-page-container{
-    color: black;
+    color: white;
     text-align: center;
     padding: 20%;
 
@@ -27,7 +31,7 @@ body{
 }
 button{
     padding: 10px 25px;
-    background-color: white;
+    background-color:white;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -43,13 +47,13 @@ button:hover{
 #header-image {
     justify-content: right;
     margin-left: 0px 0px 0px 30px;
-    width: 98.5vw;
+    width: 100vw;
     height: 60vh;   
     
 
 }
 nav{
-    background-color: #ecb982;
+    background-color:#8fa277;
     margin:0;
     padding: 0;
     border-radius: 50px 50px 50px 50px;
@@ -57,7 +61,7 @@ nav{
    
 }
 nav:hover{ 
-    background-color:#fbf3ee ;
+    background-color:turquoise ;
     opacity: .5;
 }
 
@@ -73,8 +77,8 @@ nav:hover{
 .nav-item{
     list-style: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #654321
-    ;
+    color:white;
+    
 
 
 
@@ -106,7 +110,72 @@ nav:hover{
     height: 30vh;  
     padding: auto; 
     margin-left: 200px;
+
+ }
+ .body{
+    
+    background-size: cover;
+    height:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ .container{
+   width: 800px;
+   height:600px;
+   background: white;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 40px;
     
 
  }
+ .container p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:45px;
+    margin-bottom: 20px;
+    color:#654321;
+    letter-spacing: 1px;
+
+
+
+ }
+ .input, .msg .area {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease;
+   
+ }
+ .login .input{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+
+ }
+ .login .input:last-child{
+    margin-right: 0;
+ }
+
+.msg .area{
+    height: 200px;
+}
+
+.btn{
+    width: 250px;
+    background:#8fa277;
+    height: 50px;
+    text-align:center;
+    line-height: 50px;
+    color:#654321;
+    text-transform: uppercase;
+    margin: 0 auto;
+    border-radius: 50px;
+    cursor: pointer;
+}
 
