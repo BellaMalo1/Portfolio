@@ -3,12 +3,13 @@ console.log("you got this!")
 const welcomeButtom = document.querySelector("#welcomebtn")
 const welcomeMessageContainer = document.querySelector("#Welcome-page-container")
 const homepageView = document.querySelector("#Home-page-view")
-const headerPhoto = document.queryCommandIndeterm("#header-image")
+const aboutMe = document.querySelector("#about-me-container")
 //functions 
 function welcome (){
    console.log('hello')
    welcomeMessageContainer.classList.add('hide')
    homepageView.classList.remove('hide')
+   aboutMe.classList.remove('hide')
    
 
    
