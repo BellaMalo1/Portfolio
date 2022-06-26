@@ -18,14 +18,14 @@ body{
     color: white;
     text-align: center;
     padding: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
     
   }
  #cactus{
-   height: 15vh;
-   margin-right: 1000px;
-   margin-left: 373px;
-   margin-top: 50px;
+    width: 17vh;
+    height: 20vh;
+   
    
     
    
@@ -37,6 +37,7 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition-delay: width 2s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 button:hover{
     background-color: #ecb982;
