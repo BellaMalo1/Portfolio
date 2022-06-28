@@ -15,8 +15,6 @@ body{
      
 }
 #Welcome-page-container{
-    /* display: flex; */
-    /* flex-direction: column; */
     color: white;
     text-align: center;
     padding: 10%;
@@ -24,10 +22,7 @@ body{
   }
  #cactus{
    height: 20vh;
-   width: 15vw;
-
-   
-    
+   width: 15vw; 
    
 }
 button{
@@ -159,6 +154,9 @@ nav:hover{
 }
 
 .btn{
+    display: flex;
+    justify-content: center;
+    padding: 1px;
     width: 225px;
     background:#8fa277;
     font-size: large;
@@ -212,9 +210,6 @@ footer{
     display: flex;
     justify-content: center;
     
-    
-
-
 }
 
 .modal{
@@ -255,10 +250,6 @@ footer{
    
 
 }
-
-
-
-
 @media(min-width: 600px){
    
     body{

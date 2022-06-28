@@ -1,16 +1,33 @@
-# Portfolio
-My first portfolio of my SE career
-
-1. The technologies used for this project include Html, Css and Javascript.
-2. installation instructions include searching url in browser 
-
+installation instructions:
+- include searching url in web brower.
+list of technologies:
+- technologies used to create this site include html,css, and javascript.
 
 
-A README.md file that includes the following sections:
- An embedded screenshot of the app
- List of the Technologies used
- Installation instructions
- Your User stories – who are your users, what do they want and why?
- Your Wireframes – sketches of major views / interfaces in your application
- Descriptions of any Unsolved problems or major hurdles you had to overcome
-A link to your hosted project in the URL section of your Github repo.
+User Stories:
+- As a potential employer, I want to see a basic understanding of frontend skills (html, css and javascript) in order for further skills can be developed.
+- As a viewer, I want to see a aesthetically pleasing and well organized site so that I can reference developer for future opportunities
+- As a prospect, I want to see personality and originality so that I can get a good sense of the person who made it.
+- As the developer, I want my portfolio to solidify my confidence so I know I have what it take to become a successful software engineer.
+
+MVP Goals
+- South Western aesthetic with pictures, color scheme and fonts
+- be able to switch from welcome screen to home page with event listener(nice to meet you button)
+- have a functioning nav bar which are linked to Resume, My work, contact me
+- 3 elements of javescript (welcome btn, modal, project model/slideshow)
+
+Stretch Goals
+- set up contact me page properly where emails can be sent to me.
+- input a grid format for future porject links.(last javascript element)
+- include a professional photo of myself.
+- more reaseach on media queries and implement accordingly 
+
+Psuedocode:
+- create bare html welcome page with a button
+    - set up an event listener for when "nice to meet you" button is clicked welcome page is hidden and home page is displayed 
+- add a main header photo to the top of main home page 
+- nav bar with following tags (resume,github and linkdin)
+    - each tag should have an event listener set up so when they are clicked 
+    the home screen is hidden and each page is displayed 
+- about me should be at the center of the main page layout, take time writting a thoughtfull note to the viewer.
+- add media queries and account for smaller screen size 480px 720px about 4 media queries normal size web browser 
