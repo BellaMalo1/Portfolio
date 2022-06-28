@@ -23,9 +23,6 @@ Stretch Goals
 - include a professional photo of myself.
 - more reaseach on media queries and implement accordingly 
 
-
-
-
 Psuedocode:
 - create bare html welcome page with a button
     - set up an event listener for when "nice to meet you" button is clicked welcome page is hidden and home page is displayed 
