@@ -5,6 +5,7 @@ const welcomeMessageContainer = document.querySelector("#Welcome-page-container"
 const homepageView = document.querySelector("#Home-page-view")
 const aboutMe = document.querySelector("#about-me-container")
 const bodyFooter = document.querySelector("#social-links")
+
 //functions 
 function welcome (){
    console.log('hello')
@@ -16,5 +17,7 @@ function welcome (){
    
 }
 
+
+
 // attached event listeners
-welcomeButtom.addEventListener('click',welcome)
+welcomeButtom.addEventListener('click',welcome);

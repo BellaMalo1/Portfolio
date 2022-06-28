@@ -9,10 +9,12 @@ MVP Goals
 
 - be able to switch from welcome screen to home page with event listener(nice to meet you button)
 - have a functioning nav bar which are linked to Resume, Project(github) and linkdin
+- 3 elements of javescript (welcome btn, sidebar menu, project model/slideshow)
 
 Stretch Goals
-- I want a form where visitors can email me with any inquiries
+- set up contact me page properly 
 - input a grid format for future porject links
+- getting social links on every page
 
 
 

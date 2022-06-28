@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 .hide{
     display: none;
@@ -15,35 +15,32 @@ body{
      
 }
 #Welcome-page-container{
+    /* display: flex; */
+    /* flex-direction: column; */
     color: white;
     text-align: center;
     padding: 20%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
     
   }
  #cactus{
-    width: 17vh;
-    height: 20vh;
-   
+   height: 20vh;
+   width: 10vw;
+
    
     
    
 }
 button{
-    padding: 10px 25px;
+    padding: 10px 20px;
     background-color:white;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition-delay: width 2s;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition-delay: width 2s;
 }
 button:hover{
     background-color: #ecb982;
-}
-#Home-page-container{
-    
 }
 
 #header-image {
@@ -63,7 +60,6 @@ nav{
    
 }
 nav:hover{ 
-    background-color:pink ;
     opacity: .5;
 }
 
@@ -72,7 +68,7 @@ nav:hover{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 5px 10%;
     cursor: pointer;
 
 }
@@ -92,15 +88,12 @@ nav:hover{
     transition: all 0.3s ease 0s;
  }
  .nav-item li a:hover{
-    color: white;
- }
- .sections{
-    display: flex;
+    color: pink;
  }
 
  #Aboutme{
-    padding: 10% ;
-    border: box-size
+    padding: 10%;
+    border: box-size; 
  }
  #profile-picture{
     display: inline-block;
@@ -140,7 +133,7 @@ nav:hover{
  }
  .input, .msg .area {
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     margin-bottom: 25px;
     border: 2px solid #e9eaea;
@@ -165,9 +158,10 @@ nav:hover{
 }
 
 .btn{
-    width: 250px;
+    width: 225px;
     background:#8fa277;
-    height: 50px;
+    font-size: large;
+    height: 40px;
     text-align:center;
     line-height: 50px;
     color:#654321;
@@ -176,18 +170,25 @@ nav:hover{
     border-radius: 50px;
     cursor: pointer;
 }
-#social-links a:visited, a:active, a:link{
+#social-links {
+    width: 100%;
     display: inline-flex;
+    justify-content: center;
     flex-direction: row;
-    justify-content:space-evenly;
     padding-bottom: 50px;
     text-align: center;
+}
+
+#social-links a{
     text-decoration: none;
     align-content: center;
     color: black;
 
 
 }
+    
+
+
 #inkedin{
     font-size: x-large;
     padding-right: 20px; 
@@ -198,13 +199,49 @@ nav:hover{
 }
 
 footer{
-    padding: 5%;
-    background: #ecb982;
+    padding: 3%;
+    background: #8fa277;
 }
 .my-work{
   background-color:#ecb982;
+}
+
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow: auto;
+    background-color:#ecb982;
+    background-color:rgba(0,0,0,0.4)
+
 
 }
+.model-content{
+    background-color:white;
+    margin:15% auto;
+    padding:20px;
+    border: 1px solid #888;
+    width:80%;
+}
+.close{
+    color:#8fa277;
+    float:right;
+    font-size:28px;
+    font-weight: bold;
+}
+.close:hover,.close:focus{
+    color:#8fa277;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+
+
+
 @media(min-width: 600px){
    
     body{
