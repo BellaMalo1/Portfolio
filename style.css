@@ -94,6 +94,7 @@ nav:hover{
  #Aboutme{
     padding: 10%;
     border: box-size; 
+    color: white;
  }
  #profile-picture{
     display: inline-block;
@@ -181,8 +182,9 @@ nav:hover{
 
 #social-links a{
     text-decoration: none;
+    margin: 0 10px;
     align-content: center;
-    color: black;
+    color:#ecb982;
 
 
 }
