@@ -1,6 +1,12 @@
+installation instructions:
+- include searching url in web brower.
+list of technologies:
+- technologies used to create this site include html,css, and javascript.
+
+
 User Stories:
-- As a potential employer, I want to see an a basic understanding of frontend skills (html, css and javascript) so that further skills can be developed.
-- As a viewer, I want to see a aesthetically pleasing and well organized site so that I can reference you for future opportunities
+- As a potential employer, I want to see a basic understanding of frontend skills (html, css and javascript) in order for further skills can be developed.
+- As a viewer, I want to see a aesthetically pleasing and well organized site so that I can reference developer for future opportunities
 - As a prospect, I want to see personality and originality so that I can get a good sense of the person who made it.
 - As the developer, I want my portfolio to solidify my confidence so I know I have what it take to become a successful software engineer.
 
@@ -9,12 +15,14 @@ MVP Goals
 
 - be able to switch from welcome screen to home page with event listener(nice to meet you button)
 - have a functioning nav bar which are linked to Resume, Project(github) and linkdin
-- 3 elements of javescript (welcome btn, sidebar menu, project model/slideshow)
+- 3 elements of javescript (welcome btn, modal, project model/slideshow)
 
 Stretch Goals
-- set up contact me page properly 
-- input a grid format for future porject links
-- getting social links on every page
+- set up contact me page properly where emails can be sent to me.
+- input a grid format for future porject links.(last javascript element)
+- include a professional photo of myself.
+- more reaseach on media queries and implement accordingly 
+
 
 
 
