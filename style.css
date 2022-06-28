@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 .hide{
     display: none;
@@ -205,27 +205,30 @@ footer{
 .my-work{
   background-color:#ecb982;
 }
+#Resumebtn{
+    margin:300px 650px;
+    
+    
+}
 
 .modal{
     display:none;
-    position:fixed;
+    position:absolute;
     z-index:1;
     left:0;
     top:0;
     width:100%;
     height:100%;
     overflow: auto;
-    background-color:#ecb982;
     background-color:rgba(0,0,0,0.4)
 
 
 }
 .model-content{
-    background-color:white;
-    margin:15% auto;
-    padding:20px;
-    border: 1px solid #888;
-    width:80%;
+    background-color:white; 
+    align-items: center;
+    
+
 }
 .close{
     color:#8fa277;
