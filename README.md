@@ -1,3 +1,15 @@
+wire frames:
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/bellamaldonado/SEI/projects/Portfolio/images/Project%201.png?version%3D1656633967116)
+
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/bellamaldonado/SEI/projects/Portfolio/images/project1.png?version%3D1656634146146)
+
+
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/bellamaldonado/SEI/projects/Portfolio/images/Screen%20Shot%202022-06-28%20at%201.27.05%20PM.png?version%3D1656634195483)
+
+
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/bellamaldonado/SEI/projects/Portfolio/images/Screen%20Shot%202022-06-27%20at%208.42.30%20PM.png?version%3D1656634087701)
+
+
 installation instructions:
 - include searching url in web brower.
 list of technologies:
@@ -21,6 +33,7 @@ Stretch Goals
 - input a grid format for future porject links.(last javascript element)
 - include a professional photo of myself.
 - more reaseach on media queries and implement accordingly 
+- add a home button to make the site earier to navigate 
 
 Psuedocode:
 - create bare html welcome page with a button
