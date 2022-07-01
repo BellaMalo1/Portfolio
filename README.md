@@ -12,8 +12,11 @@ wire frames:
 
 installation instructions:
 - include searching url in web brower.
+- https://bmaldonado.netlify.app/
+
 list of technologies:
 - technologies used to create this site include html,css, and javascript.
+
 
 
 User Stories:
