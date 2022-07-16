@@ -183,20 +183,18 @@ nav:hover{
     margin: 0 10px;
     align-content: center;
     color:#ecb982;
-
-
 }
     
 
 
-#inkedin{
+/* #inkedin{
     font-size: x-large;
     padding-right: 20px; 
 
 }
 #github{
     
-}
+} */
 
 footer{
     padding: 3%;
@@ -247,9 +245,9 @@ footer{
     justify-content: center;
    padding: 70px 70px;
    color: white;
-   
 
 }
+
 @media(min-width: 600px){
    
     body{
@@ -262,4 +260,19 @@ footer{
         font-size: 2rem;
         line-height: 1.5;
     }
+}
+#home-icon-1{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+}
+#home-icon-2{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+}
+#home-icon-3{
+    text-decoration: none;
+    color: white;
+    font-size:large;
 }
