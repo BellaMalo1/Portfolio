@@ -186,16 +186,6 @@ nav:hover{
 }
     
 
-
-/* #inkedin{
-    font-size: x-large;
-    padding-right: 20px; 
-
-}
-#github{
-    
-} */
-
 footer{
     padding: 3%;
     background: #8fa277;
@@ -205,8 +195,8 @@ footer{
 }
 
 #Resumebtn{
-    display: flex;
-    justify-content: center;
+  
+   
     
 }
 
